@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mili's Cakes</title>
+    <meta name="description" content="Resto" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/select2/select2.min.css" />
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="./img/miliscakes.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" class="static-layout">
+    <div class="boxed-page">
+      <nav id="navbar-header" class="navbar navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile"
+            href="/"
+          >
+            <img src="img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="lnr lnr-menu"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav d-flex justify-content-between">
+              <li class="nav-item only-desktop">
+                <a class="nav-link" id="side-nav-open" href="#">
+                  <span class="lnr lnr-menu"></span>
+                </a>
+              </li>
+              <div class="d-flex flex-lg-row flex-column">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/"
+                    >Inicio <span class="sr-only">(current)</span></a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Postres Especiales
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="special-dishes.html"
+                      >Cheesecake de Chocolate</a
+                    >
+                    <a class="dropdown-item" href="special-dishes.html"
+                      >Pastel con Duraznos</a
+                    >
+                  </div>
+                </li>
+              </div>
+            </ul>
+
+            <a
+              class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop"
+              href="#"
+            >
+              <img src="img/miliscakeshorizontal.png" alt="" />
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+              <div class="d-flex flex-lg-row flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Nosotros</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="reservation.html">Reservación</a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 hero-left">
+              <h1 class="display-4 mb-5 scrollReveal">Nosotros Amamos <br />Las Delicias</h1>
+              <div class="mb-2">
+                <a
+                  class="btn btn-primary btn-shadow btn-lg scrollReveal"
+                  href="menu.html"
+                  role="button"
+                  >Explora el Menú</a
+                >
+              </div>
+
+              <ul class="hero-info list-unstyled d-flex text-center mb-0">
+                <li class="border-right scrollReveal">
+                  <span class="lnr lnr-rocket"></span>
+                  <h5>Entrega Rápida</h5>
+                </li>
+                <li class="border-right scrollReveal">
+                  <span class="lnr lnr-leaf"></span>
+                  <h5>Postres Frescos</h5>
+                </li>
+                <li class="scrollReveal">
+                  <span class="lnr lnr-bubble"></span>
+                  <h5>Soporte 24/7</h5>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 hero-right">
+              <div class="owl-carousel owl-theme hero-carousel">
+                <div class="item">
+                  <img class="img-fluid" src="img/slider01.png" alt="" />
+                </div>
+                <div class="item">
+                  <img class="img-fluid" src="img/slider02.png" alt="" />
+                </div>
+                <div class="item">
+                  <img class="img-fluid" src="img/slider03.png" alt="" />
+                </div>
+                <div class="item">
+                  <img class="img-fluid" src="img/miliscakes.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="gtco-welcome" class="bg-white section-padding">
+        <div class="container">
+          <div class="section-content">
+            <div class="row">
+              <div
+                class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2 scrollReveal"
+                style="background-image: url(img/hero-2.jpg)"
+              ></div>
+              <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                <div class="heading-section pl-lg-5 ml-md-5">
+                  <span class="subheading scrollReveal"> Nosotros </span>
+                  <h2 class="scrollReveal">Bienvenidos a Mili's Cakes</h2>
+                </div>
+                <div class="pl-lg-5 ml-md-5 scrollReveal">
+                  <p>
+                    Creamos e innovamos las mejores y más exquisitas recetas para que tu desgustes lo que desees cuando lo desees.
+                    Así que te damos la cordial bienvenida a <b>Mili's Cakes</b>, donde disfrutarás de <b>pasteles, posteres, panes</b> y más, y, no olvides pedir tu bebida, tenemos de toda variedad de jugos y refrescos a tu gusto.
+                    <br><br>
+                    Disfruta de nuestro nuevo servicio de WiFi totalmente gratis para compartir los más bellos momentos en tus redes al instante.
+                  </p>
+                  <h3 class="mt-5 scrollReveal">Recetas Especiales</h3>
+                  <div class="row">
+                    <div class="col-4">
+                      <a href="#" class="thumb-menu scrollReveal">
+                        <img
+                          class="img-fluid img-cover"
+                          src="img/receta-de-tarta-de-ricotta-y-chispas-de-chocolate.jpg"
+                        />
+                        <h6>Tarta de Ricotta y Chispas de Chocolate</h6>
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#" class="thumb-menu scrollReveal">
+                        <img
+                          class="img-fluid img-cover"
+                          src="img/receta-de-tarta-con-crema-de-chocolate-sin-huevos.jpg"
+                        />
+                        <h6>Tarta con Crema de Chocolate sin Huevos</h6>
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#" class="thumb-menu scrollReveal">
+                        <img
+                          class="img-fluid img-cover"
+                          src="img/receta-de-tarta-de-chocolate-y-frambuesa.jpg"
+                        />
+                        <h6>Tarta de Chocolate y Frambuesa</h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gtco-special-dishes" class="bg-grey section-padding">
+        <div class="container">
+          <div class="section-content">
+            <div class="heading-section text-center">
+              <span class="subheading scrollReveal"> Especialidades </span>
+              <h2 class="scrollReveal">Postres Especiales</h2>
+            </div>
+            <div class="row mt-5">
+              <div class="col-lg-5 col-md-6 align-self-center py-5">
+                <h2 class="special-number">01.</h2>
+                <div class="dishes-text scrollReveal">
+                  <h3>
+                    <span>Cheesecake</span><br />
+                    de Chocolate
+                  </h3>
+                  <p class="pt-3">
+                    ¿A quién no le encanta una buena torta de queso? y adémas
+                    combinada con chocolate. Aquí te tenemos la más deliciosa
+                    que probarás en tu vida, ven y disfruta de esta exquisita
+                    obra de arte comestible.
+                  </p>
+                  <h3 class="special-dishes-price">L. 150.00</h3>
+                  <a href="#" class="btn-primary mt-3">Reserva una mesa</a>
+                </div>
+              </div>
+              <div
+                class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0"
+              >
+                <img
+                  src="img/cheesecake-de-chocolate-receta.jpg"
+                  alt=""
+                  class="img-fluid shadow w-100 scrollReveal"
+                />
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div
+                class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0"
+              >
+                <img
+                  src="img/pastel-con-duraznos-y-galleta-maria.jpg"
+                  alt=""
+                  class="img-fluid shadow w-100 scrollReveal"
+                />
+              </div>
+              <div
+                class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5"
+              >
+                <h2 class="special-number">02.</h2>
+                <div class="dishes-text scrollReveal">
+                  <h3>
+                    <span>Pastel con Duraznos</span><br />
+                    y Galleta María
+                  </h3>
+                  <p class="pt-3">
+                    Para los amantes de la gastronomía les presentamos este
+                    delicioso y apetitoso pastel con duraznos que puedes
+                    acompañar perfectamente de un buen café.
+                  </p>
+                  <h3 class="special-dishes-price">L. 100.00</h3>
+                  <a href="#" class="btn-primary mt-3"
+                    >RESERVAR UNA MESA
+                    <span><i class="fa fa-long-arrow-right"></i></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gtco-menu" class="section-padding">
+        <div class="container">
+          <div class="section-content">
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <div class="heading-section text-center">
+                  <span class="subheading"> Especialidades </span>
+                  <h2>Nuestro Menú</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 menu-wrap">
+                <div class="heading-menu">
+                  <h3 class="text-center mb-5">Postres</h3>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/galletas-de-azucar-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Galletas de Azúcar</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 50</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/pudin-de-chocolate-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Pudin de Chocolate y Crema de Cacahuate</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 150</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/receta-de-pan-de-elote-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Pan de Elote</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 90</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 menu-wrap">
+                <div class="heading-menu">
+                  <h3 class="text-center mb-5">Pasteles</h3>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/pastel-borracho-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Pastel Borracho</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 230</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/panque-casero-2-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Panqué de Mantequilla</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 200</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/cupcakes-de-piña-con-coco-receta-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Cupcake de Piña</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 400</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 menu-wrap">
+                <div class="heading-menu">
+                  <h3 class="text-center mb-5">Panadería</h3>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/muffins-de-fibra-receta-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Muffins de Fibra</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 60</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/rosca-de-nuez-receta-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Rosca de Nuez</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 125</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="menus d-flex align-items-center">
+                  <div class="menu-img rounded-circle">
+                    <img
+                      class="img-fluid"
+                      src="img/Pan-de-muerto-receta-390x200.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="text-wrap">
+                    <div class="row align-items-start">
+                      <div class="col-8">
+                        <h4>Pan de Muerto</h4>
+                      </div>
+                      <div class="col-4">
+                        <h4 class="text-muted menu-price">L. 200</h4>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="gtco-testimonial"
+        class="overlay bg-fixed section-padding"
+        style="background-image: url(img/cake.jpg)"
+      >
+        <div class="container">
+          <div class="section-content">
+            <div class="heading-section text-center">
+              <span class="subheading"> Testimonios </span>
+              <h2>Cliente Feliz</h2>
+            </div>
+            <div class="row">
+              <div class="testi-content testi-carousel owl-carousel">
+                <div class="testi-item">
+                  <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                  <p class="testi-text">
+                    Si lo que deseas es comer algo, ve a cualquier lugar, pero
+                    si quieres extasiarte con alguna maravilla, Mili's Cakes son
+                    los mejores y los mas deliciosos.
+                  </p>
+                  <p class="testi-author">Johan Barahona</p>
+                  <p class="testi-desc">CEO de <span>Claro HN</span></p>
+                </div>
+                <div class="testi-item">
+                  <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                  <p class="testi-text">
+                    Además de las maravillas que crean en esa cocina, el
+                    excelente servicio del personal es fantástico y te hacen
+                    sentir aún más en casa.
+                  </p>
+                  <p class="testi-author">Luis Vasquez</p>
+                  <p class="testi-desc">Rector of <span>CEUTEC</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="gtco-reservation"
+        class="bg-fixed bg-white section-padding overlay"
+        style="background-image: url(img/reservation-bg.jpg)"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="section-content bg-white p-5 shadow">
+                <div class="heading-section text-center">
+                  <span class="subheading"> Reservación </span>
+                  <h2>Reserva Ahora</h2>
+                </div>
+                <form method="post" name="contact-us" action="">
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Nombre"
+                      />
+                    </div>
+                    <div class="col-md-12 form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Correo Electrónico"
+                      />
+                    </div>
+                    <div class="col-md-12 form-group">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        placeholder="Teléfono"
+                      />
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <div
+                        class="input-group date"
+                        id="datetimepicker4"
+                        data-target-input="nearest"
+                      >
+                        <input
+                          type="text"
+                          class="form-control datetimepicker-input"
+                          data-target="#datetimepicker4"
+                          placeholder="Fecha"
+                        />
+                        <div
+                          class="input-group-append"
+                          data-target="#datetimepicker4"
+                          data-toggle="datetimepicker"
+                        >
+                          <div class="input-group-text">
+                            <span class="lnr lnr-calendar-full"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 form-group">
+                      <div
+                        class="input-group date"
+                        id="datetimepicker3"
+                        data-target-input="nearest"
+                      >
+                        <input
+                          type="text"
+                          class="form-control datetimepicker-input"
+                          data-target="#datetimepicker3"
+                          placeholder="Hora"
+                        />
+                        <div
+                          class="input-group-append"
+                          data-target="#datetimepicker3"
+                          data-toggle="datetimepicker"
+                        >
+                          <div class="input-group-text">
+                            <span class="lnr lnr-clock"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                      <select class="form-control" id="selectPerson">
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Tu Mensaje ..."
+                      ></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <button
+                        class="btn btn-primary btn-shadow btn-lg"
+                        type="submit"
+                        name="submit"
+                      >
+                        Enviar Mensaje
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mastfoot pb-5 bg-white section-padding pb-0">
+        <div class="inner container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer-widget pr-lg-5 pr-0">
+                <img
+                  src="img/miliscakeshorizontal.png"
+                  class="img-fluid footer-logo mb-3"
+                  alt=""
+                />
+                <p>
+                  Somos los mejores creadores de maravillas exquisitas. Siempre
+                  nos comprometemos a llevar los mejores sabores a tu mesa
+                  siempre con una alta tasa de bioseguridad y brindando el mejor
+                  servicio a cada uno de nuestros clientes.
+                </p>
+                <nav class="nav nav-mastfoot justify-content-start">
+                  <a class="nav-link" href="https://www.facebook.com/profile.php?id=100023638930134">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="nav-link" href="https://wa.me/50487682758">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                  <a class="nav-link" href="https://instagram.com/miligarcia77?igshid=YmMyMTA2M2Y=">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a class="nav-link" href="https://youtube.com/channel/UCNIzgHvYxN2xPdeD2t4LYBw">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </nav>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-widget px-lg-5 px-0">
+                <h4>Horarios</h4>
+                <ul class="list-unstyled open-hours">
+                  <li class="d-flex justify-content-between">
+                    <span>Lunes</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <span>Martes</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <span>Miércoles</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <span>Jueves</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <span>Viernes</span><span>9:00 - 02:00</span>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <span>Sábado</span><span>9:00 - 02:00</span>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <span>Domingo</span><span> Cerrado</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="footer-widget pl-lg-5 pl-0">
+                <h4>Correo y Noticias</h4>
+                <p>
+                  Subscribete a nuestro boletín para enterarte de nuevas
+                  recetas.
+                </p>
+                <form id="newsletter">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailNewsletter"
+                      aria-describedby="emailNewsletter"
+                      placeholder="Introducir Correo"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Subscríbeme
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-12 d-flex align-items-center">
+              <p class="mx-auto text-center mb-0">
+                Deerechos Reservados 2022. Todos los Derechos Reservados.
+                Diseñado por <a href="#">Emili Irias</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="vendor/bootstrap/popper.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js "></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+    <script
+      src="vendor/stellar/jquery.stellar.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/app.min.js "></script>
+  </body>
+</html>
