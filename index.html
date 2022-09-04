@@ -4,6 +4,32 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mili's Cakes</title>
+    <style>
+      .loader {
+        width: 4rem;
+        height: 4rem;
+        display: block;
+        border: 3px solid #ffce51;
+        border-radius: 50%;
+        border-block-color: transparent;
+        animation: spin 2s ease-in-out infinite;
+      }
+
+      .loaderPage {
+        position: fixed;
+        z-index: 9999999999;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background-color: #fff;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    </style>
     <meta name="description" content="Resto" />
     <meta
       name="viewport"
@@ -39,19 +65,23 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.min.css" />
-    <link rel="shortcut icon" href="./img/miliscakes.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/miliscakes.png" type="image/x-icon" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body data-spy="scroll" data-target="#navbar" class="static-layout">
+    <div class="loaderPage">
+      <span class="loader">
+      </span>
+    </div>
     <div class="boxed-page">
       <nav id="navbar-header" class="navbar navbar-expand-lg">
         <div class="container">
           <a
             class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile"
-            href="/"
+            href="./index.html"
           >
-            <img src="img/miliscakeshorizontal.png" alt="" />
+            <img src="img/miliscakeshorizontal.png" alt="miliscakeslogo" />
           </a>
           <button
             class="navbar-toggler"
@@ -110,7 +140,7 @@
               class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop"
               href="#"
             >
-              <img src="img/miliscakeshorizontal.png" alt="" />
+              <img src="img/miliscakeshorizontal.png" alt="miliscakeslogo" />
             </a>
             <ul class="navbar-nav d-flex justify-content-between">
               <div class="d-flex flex-lg-row flex-column">
@@ -133,7 +163,9 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="col-lg-6 hero-left">
-              <h1 class="display-4 mb-5 scrollReveal">Nosotros Amamos <br />Las Delicias</h1>
+              <h1 class="display-4 mb-5 scrollReveal">
+                Nosotros Amamos <br />Las Delicias
+              </h1>
               <div class="mb-2">
                 <a
                   class="btn btn-primary btn-shadow btn-lg scrollReveal"
@@ -161,16 +193,32 @@
             <div class="col-lg-6 hero-right">
               <div class="owl-carousel owl-theme hero-carousel">
                 <div class="item">
-                  <img class="img-fluid" src="img/slider01.png" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="img/slider01.png"
+                    alt="miliscakeslogo"
+                  />
                 </div>
                 <div class="item">
-                  <img class="img-fluid" src="img/slider02.png" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="img/slider02.png"
+                    alt="miliscakeslogo"
+                  />
                 </div>
                 <div class="item">
-                  <img class="img-fluid" src="img/slider03.png" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="img/slider03.png"
+                    alt="miliscakeslogo"
+                  />
                 </div>
                 <div class="item">
-                  <img class="img-fluid" src="img/miliscakes.png" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="img/miliscakes.png"
+                    alt="miliscakeslogo"
+                  />
                 </div>
               </div>
             </div>
@@ -193,10 +241,15 @@
                 </div>
                 <div class="pl-lg-5 ml-md-5 scrollReveal">
                   <p>
-                    Creamos e innovamos las mejores y más exquisitas recetas para que tu desgustes lo que desees cuando lo desees.
-                    Así que te damos la cordial bienvenida a <b>Mili's Cakes</b>, donde disfrutarás de <b>pasteles, posteres, panes</b> y más, y, no olvides pedir tu bebida, tenemos de toda variedad de jugos y refrescos a tu gusto.
-                    <br><br>
-                    Disfruta de nuestro nuevo servicio de WiFi totalmente gratis para compartir los más bellos momentos en tus redes al instante.
+                    Creamos e innovamos las mejores y más exquisitas recetas
+                    para que tu desgustes lo que desees cuando lo desees. Así
+                    que te damos la cordial bienvenida a <b>Mili's Cakes</b>,
+                    donde disfrutarás de <b>pasteles, posteres, panes</b> y más,
+                    y, no olvides pedir tu bebida, tenemos de toda variedad de
+                    jugos y refrescos a tu gusto. <br /><br />
+                    Disfruta de nuestro nuevo servicio de WiFi totalmente gratis
+                    para compartir los más bellos momentos en tus redes al
+                    instante.
                   </p>
                   <h3 class="mt-5 scrollReveal">Recetas Especiales</h3>
                   <div class="row">
@@ -265,7 +318,7 @@
               >
                 <img
                   src="img/cheesecake-de-chocolate-receta.jpg"
-                  alt=""
+                  alt="cheesecake-de-chocolate-receta"
                   class="img-fluid shadow w-100 scrollReveal"
                 />
               </div>
@@ -276,7 +329,7 @@
               >
                 <img
                   src="img/pastel-con-duraznos-y-galleta-maria.jpg"
-                  alt=""
+                  alt="pastel-con-duraznos-y-galleta-maria"
                   class="img-fluid shadow w-100 scrollReveal"
                 />
               </div>
@@ -327,7 +380,7 @@
                     <img
                       class="img-fluid"
                       src="img/galletas-de-azucar-390x200.jpg"
-                      alt=""
+                      alt="galletas-de-azucar"
                     />
                   </div>
                   <div class="text-wrap">
@@ -347,7 +400,7 @@
                     <img
                       class="img-fluid"
                       src="img/pudin-de-chocolate-390x200.jpg"
-                      alt=""
+                      alt="pudin-de-chocolate"
                     />
                   </div>
                   <div class="text-wrap">
@@ -367,7 +420,7 @@
                     <img
                       class="img-fluid"
                       src="img/receta-de-pan-de-elote-390x200.jpg"
-                      alt=""
+                      alt="receta-de-pan-de-elote"
                     />
                   </div>
                   <div class="text-wrap">
@@ -393,7 +446,7 @@
                     <img
                       class="img-fluid"
                       src="img/pastel-borracho-390x200.jpg"
-                      alt=""
+                      alt="pastel-borracho"
                     />
                   </div>
                   <div class="text-wrap">
@@ -413,7 +466,7 @@
                     <img
                       class="img-fluid"
                       src="img/panque-casero-2-390x200.jpg"
-                      alt=""
+                      alt="panque-casero"
                     />
                   </div>
                   <div class="text-wrap">
@@ -433,7 +486,7 @@
                     <img
                       class="img-fluid"
                       src="img/cupcakes-de-piña-con-coco-receta-390x200.jpg"
-                      alt=""
+                      alt="cupcakes-de-piña-con-coco-receta"
                     />
                   </div>
                   <div class="text-wrap">
@@ -459,7 +512,7 @@
                     <img
                       class="img-fluid"
                       src="img/muffins-de-fibra-receta-390x200.jpg"
-                      alt=""
+                      alt="muffins-de-fibra"
                     />
                   </div>
                   <div class="text-wrap">
@@ -479,7 +532,7 @@
                     <img
                       class="img-fluid"
                       src="img/rosca-de-nuez-receta-390x200.jpg"
-                      alt=""
+                      alt="rosca-de-nuez"
                     />
                   </div>
                   <div class="text-wrap">
@@ -499,7 +552,7 @@
                     <img
                       class="img-fluid"
                       src="img/Pan-de-muerto-receta-390x200.jpg"
-                      alt=""
+                      alt="Pan-de-muerto"
                     />
                   </div>
                   <div class="text-wrap">
@@ -694,7 +747,7 @@
                 <img
                   src="img/miliscakeshorizontal.png"
                   class="img-fluid footer-logo mb-3"
-                  alt=""
+                  alt="miliscakeslogo"
                 />
                 <p>
                   Somos los mejores creadores de maravillas exquisitas. Siempre
@@ -703,16 +756,26 @@
                   servicio a cada uno de nuestros clientes.
                 </p>
                 <nav class="nav nav-mastfoot justify-content-start">
-                  <a class="nav-link" href="https://www.facebook.com/profile.php?id=100023638930134">
+                  <a
+                  title="FACEBOOK"
+                    class="nav-link"
+                    href="https://www.facebook.com/profile.php?id=100023638930134"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </a>
-                  <a class="nav-link" href="https://wa.me/50487682758">
+                  <a title="whatsapp" class="nav-link" href="https://wa.me/50487682758">
                     <i class="fab fa-whatsapp"></i>
                   </a>
-                  <a class="nav-link" href="https://instagram.com/miligarcia77?igshid=YmMyMTA2M2Y=">
+                  <a title="instagram"
+                    class="nav-link"
+                    href="https://instagram.com/miligarcia77?igshid=YmMyMTA2M2Y="
+                  >
                     <i class="fab fa-instagram"></i>
                   </a>
-                  <a class="nav-link" href="https://youtube.com/channel/UCNIzgHvYxN2xPdeD2t4LYBw">
+                  <a title="youtube"
+                    class="nav-link"
+                    href="https://youtube.com/channel/UCNIzgHvYxN2xPdeD2t4LYBw"
+                  >
                     <i class="fab fa-youtube"></i>
                   </a>
                 </nav>
@@ -780,6 +843,12 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      window.addEventListener('load', () => {
+        document.querySelector('.loaderPage').style = 'opacity: 0; visibility: hidden; transition: 0.3s;'
+      })
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
     <script src="vendor/bootstrap/popper.min.js"></script>
